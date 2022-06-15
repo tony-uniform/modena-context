@@ -1,6 +1,10 @@
 [build]
   command = "npm run ci:build"
 
+[template.environment]
+
+NETLIFY_NEXT_PLUGIN_SKIP=true
+
 [[headers]]
   for = "*.css"
   [headers.values]
