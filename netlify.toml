@@ -1,5 +1,5 @@
 [build]
-  publish = "out"
+  publish = "out/"
   command = "npm run ci:build"
 
 [[headers]]
