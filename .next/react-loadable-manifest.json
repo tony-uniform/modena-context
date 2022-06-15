@@ -1,14 +1,15 @@
 {
   "../lib/preview/PreviewDevPanel/CompositionPreview/CompositionPreview.tsx -> react-json-view": {
-    "id": "../lib/preview/PreviewDevPanel/CompositionPreview/CompositionPreview.tsx -> react-json-view",
+    "id": 5171,
     "files": [
-      "static/chunks/node_modules_react-json-view_dist_main_js.js"
+      "static/chunks/171.e9208ef84f4ddc07.js"
     ]
   },
   "[id].tsx -> lib/preview/PreviewDevPanel/PreviewDevPanel": {
-    "id": "[id].tsx -> lib/preview/PreviewDevPanel/PreviewDevPanel",
+    "id": 698,
     "files": [
-      "static/chunks/lib_preview_PreviewDevPanel_PreviewDevPanel_tsx.js"
+      "static/css/df25525e2944d405.css",
+      "static/chunks/698.b5ccd8c2b6124a6b.js"
     ]
   }
 }

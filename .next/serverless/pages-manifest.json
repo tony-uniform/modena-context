@@ -1,0 +1,7 @@
+{
+  "/_error": "pages/_error.js",
+  "/[id]": "pages/[id].js",
+  "/api/preview": "pages/api/preview.js",
+  "/": "pages/index.html",
+  "/404": "pages/404.html"
+}

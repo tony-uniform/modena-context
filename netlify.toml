@@ -1,6 +1,6 @@
 [build]
   publish = "out/"
-  command = "yarn yolo"
+  command = "yarn ci:build"
 
 [[headers]]
   for = "*.css"
