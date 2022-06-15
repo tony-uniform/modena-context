@@ -1,5 +1,5 @@
 [build]
-  command = "yarn ci:build2"
+  command = "yarn build"
 
 [[headers]]
   for = "*.css"
