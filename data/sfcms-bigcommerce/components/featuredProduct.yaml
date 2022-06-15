@@ -1,0 +1,19 @@
+id: featuredProduct
+name: Featured Product
+icon: asterisk
+parameters:
+  - id: product
+    name: Product
+    type: bigcommerceProduct
+    typeConfig:
+      required: true
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-10-14T13:55:37.409843+00:00'
+updated: '2021-10-14T13:55:37.409843+00:00'
+variants:
+  - id: primary
+    name: Primary
+  - id: secondary
+    name: Secondary

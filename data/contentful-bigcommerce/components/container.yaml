@@ -1,0 +1,27 @@
+id: container
+name: Container
+icon: folder-add
+parameters: []
+slots:
+  - id: components
+    name: components
+    allowedComponents:
+      - accordion
+      - callToAction
+      - carousel
+      - featuredProduct
+      - hero
+      - productCategoryPage
+      - productCollectionContainer
+      - productCollectionItem
+      - productCollectionList
+      - productCollectionQuery
+      - story
+      - videoCarousel
+      - $personalization
+      - $test
+    inheritAllowedComponents: false
+titleParameter: ''
+canBeComposition: false
+created: '2021-11-06T21:09:46.594995+00:00'
+updated: '2021-11-06T21:10:13.338737+00:00'

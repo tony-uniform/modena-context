@@ -1,0 +1,20 @@
+id: storyBlock
+name: Story Block
+icon: chevron-double-right
+parameters:
+  - id: entry
+    name: Content Entry
+    type: sfcmsEntrySelector
+    typeConfig:
+      required: true
+      allowedContentTypes:
+        storyBlock:
+          id: 0T15e000000cos6
+          name: storyBlock
+          label: Story block
+          isSearchable: true
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-10-30T19:44:53.909841+00:00'
+updated: '2021-10-30T19:44:53.909841+00:00'

@@ -1,0 +1,13 @@
+id: productCollectionQuery
+name: Product Collection Query
+icon: play-list-search
+parameters:
+  - id: products
+    name: Products
+    type: bigcommerceProductQuery
+    typeConfig: null
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-10-14T13:55:38.036054+00:00'
+updated: '2021-10-14T13:55:38.036054+00:00'

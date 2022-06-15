@@ -1,0 +1,45 @@
+import intentManifest from '../lib/intentManifest.json';
+import { createEdgeHandler } from '@uniformdev/optimize-edge';
+
+// TODO: put your external origin URL here (netlify, az blob storage, etc.), this should be moved to an environment variable
+const ORIGIN_URL = 'https://external-static-oriting.com';
+
+export async function handleRequest(event: FetchEvent): Promise<Response> {
+  if (!ORIGIN_URL) {
+    console.error('ORIGIN_URL environment is not defined');
+    return new Response('Configuration Error', {
+      status: 500,
+    });
+  }
+
+  const { request } = event;
+  const handler = createEdgeHandler();
+  const url = buildOriginRequestUrl(request);
+  const originResponse = await fetch(url.toString(), {
+    ...request,
+    cf: {
+      cacheTtl: 60,
+    },
+  });
+  const { response } = await handler({
+    intentManifest,
+    context: {
+      cookies: request.headers.get('cookie') || '',
+      url: request.url,
+      userAgent: request.headers.get('user-agent') || '',
+    },
+    response: originResponse,
+  });
+
+  return response;
+}
+
+const buildOriginRequestUrl = (request: Request): string => {
+  const origin = new URL(ORIGIN_URL!);
+
+  const url = new URL(request.url);
+  url.hostname = origin.hostname;
+  url.protocol = origin.protocol;
+
+  return url.toString();
+};

@@ -1,0 +1,25 @@
+id: accordionContainer
+name: Accordion Container
+icon: folder-add
+parameters:
+  - id: entry
+    name: Content Entry
+    type: sfcmsEntrySelector
+    typeConfig:
+      required: true
+      allowedContentTypes:
+        benefits:
+          id: 0T15e000000cosS
+          name: benefits
+          label: Benefits
+          isSearchable: true
+slots:
+  - id: items
+    name: items
+    allowedComponents:
+      - accordionItem
+    inheritAllowedComponents: false
+titleParameter: ''
+canBeComposition: false
+created: '2021-10-30T23:10:43.008183+00:00'
+updated: '2021-10-30T23:12:26.323784+00:00'

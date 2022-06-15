@@ -1,0 +1,19 @@
+id: story
+name: Story
+icon: volume
+parameters:
+  - id: entry
+    name: Content Entry
+    type: sfcmsEntrySelector
+    typeConfig:
+      allowedContentTypes:
+        story:
+          id: 0T15e000000cosB
+          name: story
+          label: Story
+          isSearchable: true
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-10-14T13:55:37.961538+00:00'
+updated: '2021-10-30T19:34:42.37766+00:00'

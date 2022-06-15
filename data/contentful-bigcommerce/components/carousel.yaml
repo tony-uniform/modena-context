@@ -1,0 +1,23 @@
+id: carousel
+name: Carousel
+icon: arrange-front
+parameters:
+  - id: content
+    name: content
+    type: contentfulEntry
+    typeConfig:
+      required: true
+      allowedContentTypes:
+        hero:
+          id: hero
+          name: Hero
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-09-24T15:43:03.317847+00:00'
+updated: '2021-09-24T15:43:45.28483+00:00'
+variants:
+  - id: asdasd
+    name: asdasd
+  - id: '26236236'
+    name: '26236236'

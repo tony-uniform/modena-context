@@ -1,0 +1,23 @@
+id: simplePage
+name: Simple page
+icon: file-document
+parameters:
+  - id: entry
+    name: Entry
+    type: contentfulEntry
+    typeConfig:
+      required: false
+      allowedContentTypes:
+        hero:
+          id: hero
+          name: Hero
+slots:
+  - id: content
+    name: content
+    allowedComponents:
+      - hero
+    inheritAllowedComponents: false
+titleParameter: ''
+canBeComposition: true
+created: '2021-09-24T22:47:07.727749+00:00'
+updated: '2021-09-24T22:48:02.84671+00:00'

@@ -1,0 +1,14 @@
+{
+  "../lib/preview/PreviewDevPanel/CompositionPreview/CompositionPreview.tsx -> react-json-view": {
+    "id": "../lib/preview/PreviewDevPanel/CompositionPreview/CompositionPreview.tsx -> react-json-view",
+    "files": [
+      "static/chunks/node_modules_react-json-view_dist_main_js.js"
+    ]
+  },
+  "[id].tsx -> lib/preview/PreviewDevPanel/PreviewDevPanel": {
+    "id": "[id].tsx -> lib/preview/PreviewDevPanel/PreviewDevPanel",
+    "files": [
+      "static/chunks/lib_preview_PreviewDevPanel_PreviewDevPanel_tsx.js"
+    ]
+  }
+}

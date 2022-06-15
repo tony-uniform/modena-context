@@ -1,0 +1,20 @@
+id: accordionItem
+name: Accordion Item
+icon: chevron-double-down-o
+parameters:
+  - id: entry
+    name: Content Entry
+    type: sfcmsEntrySelector
+    typeConfig:
+      required: true
+      allowedContentTypes:
+        benefitBlock:
+          id: 0T15e000000cosX
+          name: benefitBlock
+          label: Benefit block
+          isSearchable: true
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-10-30T23:11:27.423285+00:00'
+updated: '2021-10-30T23:11:27.423285+00:00'

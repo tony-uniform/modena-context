@@ -1,0 +1,20 @@
+id: accordion
+name: Accordion
+icon: view-list
+parameters:
+  - id: entry
+    name: Content Entry
+    type: sfcmsEntrySelector
+    typeConfig:
+      required: true
+      allowedContentTypes:
+        benefits:
+          id: 0T15e000000cosS
+          name: benefits
+          label: Benefits
+          isSearchable: true
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-10-14T13:55:37.357236+00:00'
+updated: '2021-10-30T23:08:02.703518+00:00'

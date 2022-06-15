@@ -1,0 +1,16 @@
+id: callToAction
+name: Call to Action
+icon: phone
+parameters:
+  - id: content
+    name: content
+    type: sitecoreItem
+    typeConfig:
+      required: true
+      allowedTemplate: '{E30E79B9-293B-4203-AFCF-A35A1C6C5D0E}'
+      datasourceLocation: '{480CECA2-B060-4AC2-AD41-999F43BA379E}'
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-10-14T14:23:45.059504+00:00'
+updated: '2021-10-14T14:23:57.537316+00:00'

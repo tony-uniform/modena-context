@@ -1,0 +1,20 @@
+id: hero
+name: Hero
+icon: awards
+parameters:
+  - id: entry
+    name: Content Entry
+    type: sfcmsEntrySelector
+    typeConfig:
+      required: true
+      allowedContentTypes:
+        hero:
+          id: 0T15e000000cg30
+          name: hero
+          label: Hero
+          isSearchable: true
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-10-14T13:55:38.039109+00:00'
+updated: '2021-10-30T18:18:48.961182+00:00'

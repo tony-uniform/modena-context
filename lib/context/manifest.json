@@ -1,0 +1,72 @@
+{
+  "project": {
+    "pz": {
+      "agg": {
+        "men": {
+          "inputs": [
+            {
+              "dim": "utmmen"
+            }
+          ]
+        },
+        "testing": {
+          "inputs": [
+            {
+              "dim": "utmmen"
+            }
+          ]
+        }
+      },
+      "enr": {
+        "1": {
+          "cap": 100
+        }
+      },
+      "sig": {
+        "utmhipster": {
+          "str": 50,
+          "cap": 100,
+          "dur": "p",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "QS",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "hipster"
+                },
+                "queryName": "utm_campaign"
+              }
+            ]
+          }
+        },
+        "utmmen": {
+          "str": 50,
+          "cap": 100,
+          "dur": "p",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "QS",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "men"
+                },
+                "queryName": "utm_campaign"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "test": {
+      "mytest": {}
+    }
+  }
+}

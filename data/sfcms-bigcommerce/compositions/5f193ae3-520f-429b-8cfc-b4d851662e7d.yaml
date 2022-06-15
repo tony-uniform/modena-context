@@ -1,0 +1,94 @@
+composition:
+  _id: 5f193ae3-520f-429b-8cfc-b4d851662e7d
+  type: productLandingPage
+  _name: Landing
+  _slug: /landing
+  slots:
+    footer:
+      - type: footer
+        parameters: {}
+    header:
+      - type: header
+        parameters: {}
+    content:
+      - type: hero
+        parameters:
+          entry:
+            type: sfcmsEntrySelector
+            value: 20Y5e000000ZBf7EAG
+      - type: storyContainer
+        slots:
+          stories:
+            - type: storyBlock
+              parameters:
+                entry:
+                  type: sfcmsEntrySelector
+                  value: 20Y5e000000ZBfaEAG
+            - type: storyBlock
+              parameters:
+                entry:
+                  type: sfcmsEntrySelector
+                  value: 20Y5e000000ZBfsEAG
+            - type: storyBlock
+              parameters:
+                entry:
+                  type: sfcmsEntrySelector
+                  value: 20Y5e000000ZBfeEAG
+        parameters:
+          entry:
+            type: sfcmsEntrySelector
+            value: 20Y5e000000ZBfdEAG
+      - type: featuredProduct
+        variant: primary
+        parameters:
+          product:
+            type: bigcommerceProduct
+            value: '154'
+      - type: productCollectionList
+        parameters:
+          tag:
+            type: text
+            value: awesome stuff
+          heading:
+            type: text
+            value: Cool collection
+          products:
+            type: bigcommerceProductList
+            value:
+              - '155'
+              - '156'
+              - '157'
+      - type: accordionContainer
+        slots:
+          items:
+            - type: accordionItem
+              parameters:
+                entry:
+                  type: sfcmsEntrySelector
+                  value: 20Y5e000000ZBg3EAG
+            - type: accordionItem
+              parameters:
+                entry:
+                  type: sfcmsEntrySelector
+                  value: 20Y5e000000ZBfvEAG
+            - type: accordionItem
+              parameters:
+                entry:
+                  type: sfcmsEntrySelector
+                  value: 20Y5e000000ZBfuEAG
+            - type: accordionItem
+              parameters:
+                entry:
+                  type: sfcmsEntrySelector
+                  value: 20Y5e000000ZBg2EAG
+        parameters:
+          entry:
+            type: sfcmsEntrySelector
+            value: 20Y5e000000ZBfbEAG
+  parameters:
+    pageTitle:
+      type: text
+      value: Demo product landing page
+created: '2021-10-14T13:55:58.514348+00:00'
+modified: '2021-10-30T23:19:35.666484+00:00'
+pattern: false

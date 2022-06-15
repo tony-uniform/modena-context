@@ -1,0 +1,27 @@
+id: storyContainer
+name: Story Container
+icon: folder-add
+parameters:
+  - id: entry
+    name: Content Entry
+    type: sfcmsEntrySelector
+    typeConfig:
+      required: true
+      allowedContentTypes:
+        story:
+          id: 0T15e000000cosB
+          name: story
+          label: Story
+          isSearchable: true
+slots:
+  - id: stories
+    name: Stories
+    maxComponents: 3
+    minComponents: 2
+    allowedComponents:
+      - storyBlock
+    inheritAllowedComponents: false
+titleParameter: ''
+canBeComposition: false
+created: '2021-10-30T19:41:50.063547+00:00'
+updated: '2021-10-30T19:45:34.045473+00:00'
