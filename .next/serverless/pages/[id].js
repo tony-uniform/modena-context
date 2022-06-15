@@ -188,7 +188,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 2324:
+/***/ 5984:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -221,7 +221,7 @@ __webpack_require__.r(__webpack_exports__);
 
       
       const { processEnv } = __webpack_require__(2333)
-      processEnv([{"path":".env","contents":"# Uniform settings\nUNIFORM_API_KEY='uf17xwjwz3n3jh3k6we4ekpq3au56uju2aaqz05hlhcwr0zeq0nltdwgmhhtmyffqcdulh63pq7ap8jkznta7xgzsr5sx3fmq'\nUPM_CLI_API_KEY='uf1l852ufr4cszjytufemnlcfdq4sj9n252p3y3lhfncaenx9yctuu9ea3k4dwezc3vwa6wyakqkqf62mqyw95smqmky9jfha'\nUNIFORM_PROJECT_ID='bdf676cc-f85c-49dc-82cf-2999936224f6'\n# Optionally override preview secret. it is set to 'modena' by default\nUNIFORM_PREVIEW_SECRET='modena'\n\n# Contentful (for CMS)\nCONTENTFUL_SPACE_ID='uofata4tmebn'\nCONTENTFUL_ENVIRONMENT='master'\nCONTENTFUL_CDA_ACCESS_TOKEN='gw1pixSSJJ39llDQe7v8N8HhmiskQZIf0YzJwgLMttg'\nCONTENTFUL_CPA_ACCESS_TOKEN='hyxf5Adpqrt9KhLTvVpcJH9KbJEbVHhNNuG7Q8G_Eek'\n\n# BIGCOMMERCE settings\nBIGCOMMERCE_STORE_HASH='6oqtiuaa37'\nBIGCOMMERCE_TOKEN='bdziiak3ndnyyuscdatm7rfhk8y24oa'\n\n# Set this to enable Google Analytics\nGA_UA_ID='UA-182765069-3'\n\n# RELOAD INTENT MANIFEST\n# Add a webhook for the URL https://your-nextjs-app/api/publish/?secret=your-secret\nUNIFORM_WEBHOOK_SECRET=your-secret\n\n# set preview secret which will be appended to the `secret=` query string variable to activate the preview mode:\nUNIFORM_PREVIEW_SECRET='tppreview'\n# Enable it to fetch pre-published content:\nUNIFORM_PREVIEW_ENABLED=true\n"}])
+      processEnv([{"path":".env","contents":"# Uniform settings\n\nUNIFORM_API_KEY='uf17xwjwz3n3jh3k6we4ekpq3au56uju2aaqz05hlhcwr0zeq0nltdwgmhhtmyffqcdulh63pq7ap8jkznta7xgzsr5sx3fmq'\nUPM_CLI_API_KEY='uf1l852ufr4cszjytufemnlcfdq4sj9n252p3y3lhfncaenx9yctuu9ea3k4dwezc3vwa6wyakqkqf62mqyw95smqmky9jfha'\nUNIFORM_PROJECT_ID='bdf676cc-f85c-49dc-82cf-2999936224f6'\n\n# Optionally override preview secret. it is set to 'modena' by default\n\nUNIFORM_PREVIEW_SECRET='modena'\n\n# Contentful (for CMS)\n\nCONTENTFUL_SPACE_ID='uofata4tmebn'\nCONTENTFUL_ENVIRONMENT='master'\nCONTENTFUL_CDA_ACCESS_TOKEN='gw1pixSSJJ39llDQe7v8N8HhmiskQZIf0YzJwgLMttg'\nCONTENTFUL_CPA_ACCESS_TOKEN='hyxf5Adpqrt9KhLTvVpcJH9KbJEbVHhNNuG7Q8G_Eek'\n\n# BIGCOMMERCE settings\n\nBIGCOMMERCE_STORE_HASH='6oqtiuaa37'\nBIGCOMMERCE_TOKEN='bdziiak3ndnyyuscdatm7rfhk8y24oa'\n\n# Set this to enable Google Analytics\n\nGA_UA_ID='UA-182765069-3'\n\n# RELOAD INTENT MANIFEST\n\n# Add a webhook for the URL https://your-nextjs-app/api/publish/?secret=your-secret\n\nUNIFORM_WEBHOOK_SECRET=your-secret\n\n# set preview secret which will be appended to the `secret=` query string variable to activate the preview mode:\n\nUNIFORM_PREVIEW_SECRET='tppreview'\n\n# Enable it to fetch pre-published content:\n\nUNIFORM_PREVIEW_ENABLED=true\n"}])
     
       
         const { setConfig } = __webpack_require__(1752)
@@ -285,11 +285,11 @@ __webpack_require__.r(__webpack_exports__);
         rewrites: rewrites,
         i18n: undefined,
         page: "/[id]",
-        buildId: "Mdv4Tw680SW_EXauHPKTk",
-        escapedBuildId: "Mdv4Tw680SW_EXauHPKTk",
+        buildId: "dCZ-5NFnik8hNheFZCz1v",
+        escapedBuildId: "dCZ\-5NFnik8hNheFZCz1v",
         basePath: "",
         pageIsDynamic: true,
-        encodedPreviewProps: {previewModeId:"40ab3a77c24a83a31231ab2156e22e31",previewModeSigningKey:"0ff2b4c66567c4ddba60d77e65004d05289d35f7e9fd9d5f7ff1db4b93220f0b",previewModeEncryptionKey:"1f35574a0cda35febe1e584bbec75a4759bca636db0b7e3c63d7e7365dbb6320"}
+        encodedPreviewProps: {previewModeId:"c4109b9fdf5bb7c2ec00398d66daa18d",previewModeSigningKey:"0da6d3965b1fd46e724b7fa48bd69b9a5eea2ee130d24a7414b3bc663b66f9ff",previewModeEncryptionKey:"592fcf5e4a111740dc59859765723fdd739f1c900e85e885d02a2d012a448b65"}
       })
       
     
@@ -2034,7 +2034,7 @@ module.exports = require("zlib");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [319,884,150,571,294,698], () => (__webpack_exec__(2324)));
+var __webpack_exports__ = __webpack_require__.X(0, [319,884,150,571,294,698], () => (__webpack_exec__(5984)));
 module.exports = __webpack_exports__;
 
 })();

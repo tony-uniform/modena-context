@@ -13,6 +13,7 @@
     "context:manifest": "uniform context manifest download --output ./lib/context/manifest.json",
     "start": "next start -p 4120",
     "ci:build": "run-s build export",
+    "ci:build2": "run-s build:next",
     "build:worker": "npx wrangler build",
     "dev:worker": "wrangler dev",
     "publish:worker": "npx wrangler publish",
