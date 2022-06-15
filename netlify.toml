@@ -1,6 +1,6 @@
 [build]
-  publish = ".next"
-  command = "yarn ci:build"
+  publish = "out"
+  command = "npm run ci:build"
 
 [[headers]]
   for = "*.css"

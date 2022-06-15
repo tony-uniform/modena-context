@@ -1,1 +1,4 @@
 .next/cache/webpack/.DS_Store
+
+# Local Netlify folder
+.netlify
