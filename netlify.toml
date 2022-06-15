@@ -1,5 +1,5 @@
 [build]
-  command = "npm run ci:build"
+  command = "yarn ci:build2"
 
 [[headers]]
   for = "*.css"
